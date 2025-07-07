@@ -1,0 +1,100 @@
+*{
+    color:white;
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+/* header{
+    position: fixed;
+    top: 0;
+    left: 32em;
+} */
+
+section{
+    margin: 6em;
+}
+
+footer{
+    color: gray;
+    padding: 3em;
+}
+
+.container{
+    margin: 3em;
+}
+
+.container_grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 75px; 
+}
+
+.menu{
+    font-size: 1.2em;
+    margin: 1.5em;
+}
+
+.intro{
+    font-size: 2em;
+}
+
+.highlight{
+    color: #CBACF9;
+}
+
+.title{
+    font-size: 1.6em;
+    margin-bottom: 1.1em;
+}
+
+.skill_button{
+    background-color: #0C0E23;
+    padding: 0.5em 0.8em;
+    border-radius: 1.8em;
+    border: 1px solid #CBACF9;
+}
+
+.project{
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.project_img{
+    width: 350px;
+    height: 170px;
+    border-radius: 1em;
+    margin-bottom: 15px;
+}
+
+.project_title{
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+.project_desc{
+    height: 100px;  
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project_skill{
+    font-size: 0.8em;
+    background-color: #0C0E23;
+    padding: 0.5em 0.8em;
+    border-radius: 1.8em;
+    border: 1px solid #CBACF9;
+}
+
+.contect_container{
+    margin-bottom: 30px;
+}
+
+.contect_button{
+    background: linear-gradient(70deg,#A76DFC,#5C1CB2);
+    padding: 0.8em 1em;
+    border-radius: 1.8em;
+}
