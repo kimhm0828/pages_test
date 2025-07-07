@@ -1,29 +1,28 @@
 *{
     color:white;
     text-align: center;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #161A31;
 }
 
 a{
     text-decoration-line: none;
 }
 
-/* header{
-    position: fixed;
-    top: 0;
-    left: 32em;
-} */
-
 section{
-    margin: 6em;
+    margin: 6rem;
 }
 
 footer{
     color: gray;
-    padding: 3em;
+    padding: 3rem;
 }
 
 .container{
-    margin: 3em;
+    margin: 3rem;
 }
 
 .container_grid{
@@ -33,12 +32,19 @@ footer{
 }
 
 .menu{
-    font-size: 1.2em;
-    margin: 1.5em;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    color: gray;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu:hover{
+    color: white;
 }
 
 .intro{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .highlight{
@@ -46,14 +52,15 @@ footer{
 }
 
 .title{
-    font-size: 1.6em;
-    margin-bottom: 1.1em;
+    font-size: 1.6rem;
+    margin-bottom: 1.1rem;
 }
 
 .skill_button{
+    font-size: 0.9rem;
     background-color: #0C0E23;
-    padding: 0.5em 0.8em;
-    border-radius: 1.8em;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1.8rem;
     border: 1px solid #CBACF9;
     transition: box-shadow 0.3s ease;
 }
@@ -63,8 +70,8 @@ footer{
 }
 
 .project{
-    padding: 0.5em;
-    border-radius: 1em;
+    padding: 0.5rem;
+    border-radius: 1rem;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
@@ -76,13 +83,13 @@ footer{
 .project_img{
     width: 350px;
     height: 170px;
-    border-radius: 1em;
+    border-radius: 1rem;
     margin-bottom: 15px;
 }
 
 .project_title{
     font-weight: 700;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin: 10px;
 }
 
@@ -93,10 +100,10 @@ footer{
 }
 
 .project_skill{
-    font-size: 0.8em;
+    font-size: 0.85rem;
     background-color: #0C0E23;
-    padding: 0.5em 0.8em;
-    border-radius: 1.8em;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1.8rem;
     border: 1px solid #CBACF9;
     transition: box-shadow 0.3s ease;
 }
@@ -111,8 +118,8 @@ footer{
 
 .contect_button{
     background: linear-gradient(70deg,#A76DFC,#5C1CB2);
-    padding: 0.8em 1em;
-    border-radius: 1.8em;
+    padding: 0.8rem 1rem;
+    border-radius: 1.8rem;
     transition: box-shadow 0.3s ease;
 }
 
