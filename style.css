@@ -8,10 +8,6 @@ body{
     background-color: #161A31;
 }
 
-h3{
-    margin-bottom: 2rem;
-}
-
 a{
     text-decoration-line: none;
 }
@@ -30,13 +26,17 @@ footer{
 }
 
 .container{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center; 
+    margin-bottom: 1.5rem;
 }
 
-.about_container{
-    margin-bottom: 3rem;
+.about_content{
+    width: 50%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px 1px #CBACF9;
 }
 
 .container_grid{
@@ -91,7 +91,6 @@ footer{
     transition: transform 0.5s ease;
     cursor: pointer;
     box-shadow: 0 0 3px 1px #CBACF9;
-    
 }
 
 .project:hover{
@@ -132,8 +131,7 @@ footer{
     width: 50%;
     background: linear-gradient(90deg,#0C0E23,#161A31);
     border-radius: 1.5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 2rem 4rem 0rem 4rem;
     margin-bottom: 2rem;
     box-shadow: 0 0 5px 1px #CBACF9;
 }
