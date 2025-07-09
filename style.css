@@ -34,7 +34,7 @@ footer{
 
 .about_content{
     width: 50%;
-    padding: 2rem;
+    padding: 1rem 1rem 1.5rem 1rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 5px 1px #CBACF9;
 }
@@ -71,7 +71,7 @@ footer{
 }
 
 .skill_button{
-    font-size: 0.9rem;
+    font-size: 1rem;
     background-color: #0C0E23;
     padding: 0.5rem 0.8rem;
     border-radius: 1.8rem;
