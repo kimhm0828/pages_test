@@ -8,7 +8,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href=".favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <script defer src="./app.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 <section id="about">
     <h1 class="title">About Me</h1>
     
-    <div class="container">
+    <div class="about_container">
         <h3>기술 스택</h3>
         <span class="skill_button">Java</span>
         <span class="skill_button">Oracle</span>
@@ -42,7 +43,7 @@
         <span class="skill_button">MyBatis</span>
     </div>
 
-    <div class="container">
+    <div class="about_container">
         <h3>자격증</h3>
         <span class="skill_button">정보처리기사</span>
         <span class="skill_button">SQLD</span>
@@ -57,7 +58,9 @@
             <div class="project">
                 <img class="project_img" src="./book_image.jpg" alt="book_image">
                 <div class="project_title">WishBook</div>
-                <div class="project_desc">책 구매는 물론, 판매, 공동구매, 경매, 독서모임 등 다양한 기능을 제공하는 도서 플랫폼입니다.</div>
+                <div class="project_desc">
+                    책 구매는 물론, 판매, 공동구매, 경매, 독서모임 등 다양한 기능을 제공하는 도서 플랫폼입니다.
+                </div>
                 <span class="project_skill">Web</span>
                 <span class="project_skill">Java</span>
                 <span class="project_skill">Spring</span>
@@ -68,7 +71,9 @@
             <div class="project">
                 <img class="project_img" src="./flower_shop.jpg" alt="flower_shop">
                 <div class="project_title">Flo:Be</div>
-                <div class="project_desc">플라워 카페의 홍보 및 상품 주문과 일일 클래스 예약 서비스 제공을 위한 사이트입니다.</div>
+                <div class="project_desc">
+                    플라워 카페의 홍보 및 상품 주문과 일일 클래스 예약 서비스 제공을 위한 사이트입니다.
+                </div>
                 <span class="project_skill">Web</span>
                 <span class="project_skill">Java</span>
                 <span class="project_skill">Oracle</span>
@@ -91,15 +96,30 @@
 </section>
 
 <section id="contact">
-    <h1 class="title">Contact</h1>
-    <div class="contect_container">
-        <h3>Email</h3>
-        <span>kimhm0828@gmail.com</span>
+    <div class="container">
+        <div class="contact_container">
+            <h1 class="title">Contact</h1>
+            <form id="contact_form">
+                <label for="name">Name</label>
+                <input class="form_input" type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input class="form_input" type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea class="form_input" id="message" name="message" required></textarea><br>
+                <input class="link_button" type="submit" value="보내기">
+            </form>
+        </div>
     </div>
-    <div class="contect_container">
-        <h3>Github</h3>
+    <div id="modal_container" class="hidden">
+        <div id="modal_content">
+             <p id="modal_text"></p>
+            <button class="link_button" onclick="closeModal()">확인</button>
+        </div>
+    </div>
+    <div class="github_container">
+        <h1 class="title">Github</h1>
         <a href="https://github.com/kimhm0828">
-            <span class="contect_button">Github 바로가기</span>
+            <span class="link_button">Github 바로가기</span>
         </a>
     </div>
 </section>
