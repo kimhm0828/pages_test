@@ -8,6 +8,10 @@ body{
     background-color: #161A31;
 }
 
+h1{
+    font-size: 3rem;
+}
+
 a{
     text-decoration-line: none;
 }
@@ -21,7 +25,7 @@ textarea{
 }
 
 footer{
-    color: gray;
+    color: rgb(160, 160, 160);
     padding: 3rem;
 }
 
